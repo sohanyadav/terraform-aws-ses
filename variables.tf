@@ -14,7 +14,7 @@ variable "environment" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-aws-ses"
+  default     = "https://github.com/sohanyadav/terraform-aws-ses"
   description = "Terraform current module repo"
 }
 
@@ -26,8 +26,8 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'opsstation'"
+  default     = "example"
+  description = "ManagedBy, eg 'sohanyadav'"
 }
 
 variable "emails" {

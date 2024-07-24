@@ -92,7 +92,7 @@ Replace **MIT** and **sohanyadav** with the appropriate license and your informa
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|-----|:--------:|
+|------|-------------|------|---------|:--------:|
 | <a name="input_cname_type"></a> [cname\_type](#input\_cname\_type) | CNAME type for Record Set. | `string` | `"CNAME"` | no |
 | <a name="input_domain"></a> [domain](#input\_domain) | Domain to use for SES. | `string` | `""` | no |
 | <a name="input_emails"></a> [emails](#input\_emails) | Emails list to use for SES. | `list(string)` | `[]` | no |
@@ -111,9 +111,9 @@ Replace **MIT** and **sohanyadav** with the appropriate license and your informa
 | <a name="input_iam_name"></a> [iam\_name](#input\_iam\_name) | IAM username. | `string` | `""` | no |
 | <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. `name`,`application`. | `list(any)` | <pre>[<br>  "name",<br>  "environment"<br>]</pre> | no |
 | <a name="input_mail_from_domain"></a> [mail\_from\_domain](#input\_mail\_from\_domain) | Subdomain (of the route53 zone) which is to be used as MAIL FROM address. | `string` | `""` | no |
-| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, eg 'sohanyadav' | `string` | `"example"`| no |
-| <a name="input_mx_type"></a> [mx\_type](#input\_mx\_type) | MX type for Record Set. | `string` | `"MX"`| no |
-| <a name="input_name"></a> [name](#input\_name) | Name  (e.g. `app` or `cluster`). | `string` | `""`| no |
+| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, eg 'sohanyadav' | `string` | `"example"` | no |
+| <a name="input_mx_type"></a> [mx\_type](#input\_mx\_type) | MX type for Record Set. | `string` | `"MX"` | no |
+| <a name="input_name"></a> [name](#input\_name) | Name  (e.g. `app` or `cluster`). | `string` | `""` | no |
 | <a name="input_repository"></a> [repository](#input\_repository) | Terraform current module repo | `string` | `"https://github.com/sohanyadav/terraform-aws-ses"` | no |
 | <a name="input_spf_domain_name"></a> [spf\_domain\_name](#input\_spf\_domain\_name) | n/a | `string` | `"spf_domain"` | no |
 | <a name="input_template_html"></a> [template\_html](#input\_template\_html) | The HTML body of the email. Must be less than 500KB in size, including both the text and HTML parts. | `string` | `""` | no |
